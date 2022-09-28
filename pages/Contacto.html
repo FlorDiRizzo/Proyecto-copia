@@ -4,41 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilo.css">
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Playfair+Display:ital,wght@0,400;1,500;1,600&display=swap" rel="stylesheet">
     <title>Contacto</title>
 </head>
 
 <body>
-    <div id="grillacontacto">
     <header>
-            <div class="encabezado">
-                <img src="../imagenes/logo1.jpg" alt="" width="130">
-                <h1>Hecha a medida </h1>
-            </div>
-        <nav>
-            <ul id="listadenavegacion"> 
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="Productos.html">Productos</a>
-                <li><a href="Preguntas-frecuentes.html">Preguntas frecuentes</a></li>
-                <li><a href="Como-comprar.html">Como comprar</a></li>
-                <li><a href="Contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+        <h3 container >Hecha a tu medida</h3>
+    </div>
+   <nav> 
+       <nav class="navbar navbar-expand-lg bg-light container-fluid">
+           <div class="container">
+            <h1><a class="navbar-brand"  href="../index.html">SORAYA LENCERIA</h1> </a>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span> 
+             </button> 
+             <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+               <ul class="navbar-nav">
+                 <li class="nav-item dropdown" >
+                   <a class="nav-link dropdown-toggle" href="Productos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     PRODUCTOS
+                   </a>
+                   <ul class="dropdown-menu">
+                   <li><a class="dropdown-item" href="Productos.html">ALL</a></li>
+                     <li><a class="dropdown-item" href="Productos.html #conjuntos" >CONJUNTOS</a></li>
+                     <li><a class="dropdown-item" href="Productos.html #promociones"> PROMOCIONES</a></li>
+                     <li><a class="dropdown-item" href="Productos.html #partes-de-arriba"> PARTES DE ARRIBA</a></li>
+                     <li><a class="dropdown-item" href="Productos.html #partes-de-abajo">PARTES DE ABAJO</a></li>
+                     <li><a class="dropdown-item" href="Productos.html #pijamas">PIJAMAS</a></li>
+                   </ul>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link" href="Preguntas-frecuentes.html">PREGUNTAS FRECUENTES</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link" href="Talles.html">TALLES</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link" href="Contacto.html">CONTACTO</a>
+                 </li>
+               </ul>
+             </div>
+           </div>
+         </nav>
+   </nav>
+</header>
     </header>
 <section class="regitro">
      <form action="">
      <label for="NOMBRE"></label>
-     <h2>Nombre</h2>
+     <h3 class="registrocontacto">Nombre</h3>
      <input type="text" name="NOMBRE" id="NOMBRE">
-     <h2>Email</h2>
+     <h3 class="registrocontacto">Email</h3>
      <input type="email" >
-     <h2>Pedido o consulta</h2>
+     <h3 class="registrocontacto">Pedido o consulta</h3>
      <textarea name="" id="" cols="30" rows="10"></textarea>
      </form>
 
     <div>
-       <h2>PRODUCTO ELEGIDO</h2> 
+       <h3 class="registrocontacto">PRODUCTO ELEGIDO</h3> 
        <p>conjunto florencia <input type="checkbox" name="" id=""> </p>
        <p>conjunto romina <input type="checkbox" name="" id=""> </p>
        <p>conjunto celeste <input type="checkbox" name="" id=""> </p>
@@ -49,7 +75,7 @@
 
     <div>
 
-        <h2>OPCION DE PAGO</h2>
+        <h3 class="registrocontacto">OPCION DE PAGO</h3>
 
         <div>
             <input type="radio" id="pago-en-efectivo" name="opcion-de-pago" value="pago-en-efectivo"checked>
@@ -74,7 +100,7 @@
     </div>
 
     <div> 
-        <h2>OPCION DE ENTREGA</h2>
+        <h3 class="registrocontacto">OPCION DE ENTREGA</h3>
 
         <div>
             <input class="asd" type="radio" id="RETIRO EN LA SUCURSAL" name="opcion-de-entrega" value="RETIRO EN LA SUCURSAL" checked>
@@ -93,12 +119,16 @@
     
     </section>
 
-    <footer id="footer">
-        <h2> INGRESA A NUESTRAS REDES SOCIALES <li><a href="https://www.instagram.com/sorayalenceria/">instagram</a></li></h2>
-       
-       
-    </footer>
+    <footer class="footer">
+        <h4> INGRESA A NUESTRAS REDES SOCIALES </h4> 
+        <div class="imginstagram"> 
+        <a href="https://www.instagram.com/sorayalenceria/"><img class="imginstagram " src="../imageneslogo/instagram.png"></a>
+        <a href="https://www.facebook.com/soryalenceriia"><img class="imginstagram " src="../imageneslogo/facebook.png"></a> 
+        <a class="wp" href="https://api.whatsapp.com/send?phone=541530510714" target="_blank"><img class="imginstagram " src="../imageneslogo/whatsapp (1).png"></a>
+      </div>
+</footer>
 
-</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
 </body>
 </html>
