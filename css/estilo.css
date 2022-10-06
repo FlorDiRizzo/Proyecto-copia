@@ -1,328 +1,240 @@
- /*estilos para ETIQUETAS */
- /*TODOS*/
- *{
-    margin: 0;
-    padding: 0;
-    font-family: 'PT Sans', sans-serif;
-    box-sizing: border-box;
-    transition: 0.5s;
- }
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
 
-body
-{
-  background-color:white;
+body {
+  background-color: white;
   height: 100vh;
   width: 100%;
   position: relative;
 }
 
-h1{
-    font-size: large;
-    background-color: rgb(70, 34, 104);
-    font: white
+p {
+  padding-left: 50px;
 }
-h2{
-    font-style: normal;
-    font-weight: 400;
-    color:rgb(70, 34, 104);
-    font-size: small;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 5px;
-    font-size: large;
 
- }
- h3{ 
-    font-size: large;
-    justify-content: center;
-    align-content: center;
- }
-/* mobile firts*/
-.container.barra{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+h1 {
+  font-size: large;
+  background-color: rgb(70, 34, 104);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  color: white;
 }
-.navbar  .nav-item .nav-link{
-    
-    color:rgb(70, 34, 104) }
+
+h2 {
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(70, 34, 104);
+  font-size: small;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  font-size: large;
+}
+
+h3 {
+  font-size: large;
+  justify-content: center;
+  align-content: center;
+  font-weight: 600;
+  padding-left: 50px;
+}
+
+h4 {
+  background-color: rgb(70, 34, 104);
+  color: white;
+}
+
+.preguntasf {
+  font-size: x-large;
+  font-weight: 600;
+  padding-left: 50px;
+}
+
+.footer {
+  width: 100%;
+  height: 5%;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(247, 247, 235);
+  font-family: "PT Sans", sans-serif;
+  font-weight: 200;
+  color: rgb(70, 34, 104);
+  text-decoration-style: none;
+}
+
+.container.barra {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.navbar .nav-item .nav-link {
+  color: rgb(70, 34, 104);
+}
 
 .navbar-brand {
-    color: whitesmoke;
-    font-family: 'PT Sans', serif;
-    font-style: normal;
-    font-weight: 50;
-    font-size: 200%;
+  color: whitesmoke;
+  font-family: "PT Sans", serif;
+  font-style: normal;
+  font-weight: 50;
+  font-size: 200%;
 }
-
-
-
-
-
-h4{
-    font-size: small;
-}
-.imginstagram{
-    width: 20px;
-    height: 20px;
-    margin-left: 20px;
-    margin-bottom: 10px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;}
-
-    
-/*tablet*/
 
 @media screen and (min-width: 768px) {
-
-
-    .navbar .navbar-expand-lg .bg-light .container-fluid{
-        display: flex;
-        flex-direction: row;
-    
-    }
-
-    .navbar .navbar-expand-lg .bg-light{
-        display: flex;
-        flex-direction: row;
-    
-    }
-    
-    .slide{
-        width: 85%;
-        height: 70%;
-        justify-content: center;
-        overflow: hidden;
-    }
-    
-
-    .footer{
-        width: 100%;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        padding: 2rem 8%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        background-color: rgb(247, 247, 235);  
-        font-family: 'PT Sans', sans-serif;
-        font-weight: 400;
-        color: rgb(70, 34, 104);
-        text-decoration-style: none;
-        height: 15%
-    }
-}
-
-/*desktop*/
-
-@media screen and (min-width: 1200px){
-    
-
-
-.navbar .navbar-expand-lg .bg-light{
+  .navbar .navbar-expand-lg .bg-light .container-fluid {
     display: flex;
     flex-direction: row;
-
-}
-    .body {
-        background-color: rgb(230, 222, 230);
-        width:100%;
-        position: relative;
-      }
-
-      .slide{
-        position: relative;
-        width: 85%;
-        height: 75%;
-        justify-content: center;
-        overflow: hidden;
-    }
-    h3{ 
-        font-size: large;
-        justify-content: center;
-        align-content: center;
-     }
-.footer{
-    width: 100%;
-    height: 10%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+  }
+  .navbar .navbar-expand-lg .bg-light {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: rgb(247, 247, 235);  
-    font-family: 'PT Sans', sans-serif;
-    font-weight: 200;
-    color: rgb(70, 34, 104);
-    text-decoration-style: none;}
-
-  
-
+    flex-direction: row;
+  }
+}
+.imgfooter {
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
 }
 
-
-
-/*FINAL ESTILO INDEX*/
-
-/*PRINCIPIO PRODUCTOS*/
-h1{ display: flex;
-justify-content: center;
-color:white;
+.card-img-top {
+  width: 325px;
+  height: 550px;
+  flex-direction: column;
 }
 
-
-
-/*FINAL PRODUCTOS*/
-/*PRINCIPIO preguntas frecuentes*/
-H3{
-    font-size: larger;
- }
-.tabla-medidas{ 
-    border-collapse: collapse;
-    margin: 50px;
-    width: 960px;
-    border-radius: 30px;
-    overflow: hidden;
-    font-size: larger;
-    min-width: 400px;
-    font-family: 'PT Sans', sans-serif;
-    font-weight: 400;
-    margin-left: 40px;
-    background-color: rgb(247, 247, 235);
-    border-color: black;
-    text-align: left;
-    padding: 12px 15px;
-    border-bottom: 1px solid;
-    color: rgb(70, 34, 104);
-    display:flex;
-    justify-content: center;
- }
-
-
- .tabla-medidas th { 
-    background-color: rgb(250, 242, 242);
-    padding: 15px 80px 20px 50px;
-    text-align: center;
+.registro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
 }
 
-.tabla-medidas td {
-    padding: 12px 15px;
+h3.registrocontacto {
+  padding: 12px;
+  width: 100%;
+  font-size: 16px;
+  color: #000;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-
-.respuesta-pf { 
-    font-weight: 40;
-    text-align: justify;
-    padding: 00px 50px 00px 50px;
+input.registroblock {
+  width: 100%;
 }
 
-/*FINAL preguntas frecuentes*/
-/*PRINCIPIO TABLADETALLES*/
+input input.enviar {
+  padding: 5px;
+  margin: 10px;
+}
 
-.imagenestalles { 
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    max-height: 20%;
+input.limpiar {
+  padding: 5px;
+  margin: 10px;
+}
+
+p.opcion {
+  padding: 0%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.opcionpago {
+  padding: 0%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.imagenestalles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 20%;
 }
 
 .container {
-    position: relative;
-    width: 100%;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-    display: flex;
- flex-direction: column;
-    justify-content: center;
-    
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
 .talles {
-    font-size: large;
-    font-weight: 400;
-    margin: 50px;
-    display: flex;
-    justify-content: center;
+  font-size: large;
+  font-weight: 400;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
 }
 
-
-
-
-/*FINAL TABLASDETALLES/
- /* principio de contacto*/
- /*******************mobile firs******/
- 
-
-@media only screen and (min-width: 0px) and (max-width: 767px){
-
-
-
-
-
+.tabla-medidas {
+  border-collapse: collapse;
+  margin: 50px;
+  width: 960px;
+  border-radius: 30px;
+  overflow: hidden;
+  font-size: larger;
+  min-width: 400px;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  margin-left: 40px;
+  background-color: rgb(247, 247, 235);
+  border-color: black;
+  text-align: left;
+  padding: 12px 15px;
+  border-bottom: 1px solid;
+  color: rgb(70, 34, 104);
+  display: flex;
+  justify-content: center;
 }
 
-/*tablet*/
-@media screen and (min-width: 768px) {
-
+.tabla-medidas th {
+  background-color: rgb(250, 242, 242);
+  padding: 15px 80px 20px 50px;
+  text-align: center;
 }
 
-/*desktop*/
-@media screen and (min-width: 1200px){
-
+.tabla-medidas td {
+  padding: 12px 15px;
 }
 
-.footercomocomprar{ width: 100%;
-    height: 5%;
-    position: relative;
-    bottom: 0;
-    left: 0;
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: rgb(247, 247, 235);  
-    font-family: 'PT Sans', sans-serif;
-    font-weight: 200;
-    color: rgb(70, 34, 104);
-    text-decoration-style: none;}
+.respuesta-pf {
+  font-weight: 40;
+  text-align: justify;
+  padding: 0px 50px 0px 50px;
+}
 
-
-.footer{
-    width: 100%;
-    height: 5%;
-    position: relative;
-    bottom: 0;
-    left: 0;
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: rgb(247, 247, 235);  
-    font-family: 'PT Sans', sans-serif;
-    font-weight: 200;
-    color: rgb(70, 34, 104);
-    text-decoration-style: none;}
-
-    .preguntasf {
-        font-size: x-large;
-        font-weight: 600;
-        padding-left: 50px;
-    }
-
-   p { padding-left: 50px}
-
-   .registrocontacto {
-    font-weight: 600;
-    padding-left: 50px;
-
-   }
+/*# sourceMappingURL=estilo.css.map */

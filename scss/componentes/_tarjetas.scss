@@ -1,0 +1,7 @@
+
+.card-img-top{
+@include sizes (325px, 550px);
+flex-direction: column;
+
+}
+

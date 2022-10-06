@@ -1,0 +1,37 @@
+
+
+
+
+.container.barra{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.navbar  .nav-item .nav-link{
+    
+    color:rgb(70, 34, 104) }
+
+.navbar-brand {
+    color: whitesmoke;
+    font-family: 'PT Sans', serif;
+    font-style: normal;
+    font-weight: 50;
+    font-size: 200%;
+}
+
+
+@media screen and (min-width: 768px) {
+
+
+    .navbar .navbar-expand-lg .bg-light .container-fluid{
+        display: flex;
+        flex-direction: row;
+    
+    }
+    .navbar .navbar-expand-lg .bg-light{
+        display: flex;
+        flex-direction: row;
+    
+    }
+    
+}

@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "sass": "^1.55.0"
+  },
+  "name": "proyecto-dw",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run-sass":"" TERMINAR DE ESCRIBIR ACA, COPIAR Y PEGA LO DE LA TERMINAL 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlorDiRizzo/Proyecto-copia.git"
+  },
+  "author": "flor.dirizzo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FlorDiRizzo/Proyecto-copia/issues"
+  },
+  "homepage": "https://github.com/FlorDiRizzo/Proyecto-copia#readme",
+  "description": ""
+}

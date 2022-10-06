@@ -52,25 +52,26 @@
    </nav>
 </header>
     </header>
-<section class="regitro">
+    <h1>CONTACTO</h1>
+<section class="registro">
      <form action="">
-     <label for="NOMBRE"></label>
+     
      <h3 class="registrocontacto">Nombre</h3>
-     <input type="text" name="NOMBRE" id="NOMBRE">
+     <input type="text" name="NOMBRE" class="registroblock">
      <h3 class="registrocontacto">Email</h3>
-     <input type="email" >
+     <input type="email" class="registroblock">
      <h3 class="registrocontacto">Pedido o consulta</h3>
      <textarea name="" id="" cols="30" rows="10"></textarea>
      </form>
 
     <div>
        <h3 class="registrocontacto">PRODUCTO ELEGIDO</h3> 
-       <p>conjunto florencia <input type="checkbox" name="" id=""> </p>
-       <p>conjunto romina <input type="checkbox" name="" id=""> </p>
-       <p>conjunto celeste <input type="checkbox" name="" id=""> </p>
-       <p>conjunto agustina <input type="checkbox" name="" id=""> </p>
-       <p>conjunto sabrina <input type="checkbox" name="" id=""> </p>
-       <p>conjunto valentina <input type="checkbox" name="" id=""> </p>
+       <p class="opcionesconjuntos">conjunto florencia <input type="checkbox" name="" id=""> </p>
+       <p class="opcionesconjuntos">conjunto romina <input type="checkbox" name="" id=""> </p>
+       <p class="opcionesconjuntos" >conjunto celeste <input type="checkbox" name="" id=""> </p>
+       <p class="opcionesconjuntos">conjunto agustina <input type="checkbox" name="" id=""> </p>
+       <p class="opcionesconjuntos">conjunto sabrina <input type="checkbox" name="" id=""> </p>
+       <p class="opcionesconjuntos" >conjunto valentina <input type="checkbox" name="" id=""> </p>
     </div>
 
     <div>
@@ -79,22 +80,22 @@
 
         <div>
             <input type="radio" id="pago-en-efectivo" name="opcion-de-pago" value="pago-en-efectivo"checked>
-            <label for="pago-en-efectivo">PAGO EN EFECTIVO EN LA TIENDA</label>
+            <label for="pago-en-efectivo" class="opcionpago">PAGO EN EFECTIVO EN LA TIENDA</label>
         </div>
         
         <div>
             <input type="radio" id="trajeta-de-credito" name="opcion-de-pago" value="trajeta-de-credito ">
-            <label for="tarjeta-de-credito">TARJETA DE CREDITO </label>
+            <label for="tarjeta-de-credito" class="opcionpago">TARJETA DE CREDITO </label>
         </div>
         
         <div>
             <input type="radio" id="trajeta-de-debito" name="opcion-de-pago" value="trajeta-de-debito ">
-            <label for="tarjeta-de-debito">TARJETA DE DEBITO </label>
+            <label for="tarjeta-de-debito" class="opcionpago">TARJETA DE DEBITO </label>
             </div>
 
         <div>
             <input type="radio" id="mercado-pago" name="opcion-de-pago" value="mercado-pago ">
-            <label for="mercado-pago">MERCADO PAGO</label>
+            <label for="mercado-pago" class="opcionpago" >MERCADO PAGO</label>
         </div> 
 
     </div>
@@ -113,19 +114,19 @@
         </div>
 
     </div>
-
-        <input type="submit" value="Enviar formulario">
-        <input type="reset" value="Limpiar formulario">
-    
+<div class="botones">
+        <input class="enviar" type="submit" value="Enviar formulario">
+        <input class="limpiar" type="reset" value="Limpiar formulario">
+      </div>
     </section>
 
     <footer class="footer">
-        <h4> INGRESA A NUESTRAS REDES SOCIALES </h4> 
-        <div class="imginstagram"> 
-        <a href="https://www.instagram.com/sorayalenceria/"><img class="imginstagram " src="../imageneslogo/instagram.png"></a>
-        <a href="https://www.facebook.com/soryalenceriia"><img class="imginstagram " src="../imageneslogo/facebook.png"></a> 
-        <a class="wp" href="https://api.whatsapp.com/send?phone=541530510714" target="_blank"><img class="imginstagram " src="../imageneslogo/whatsapp (1).png"></a>
-      </div>
+      <h4> INGRESA A NUESTRAS REDES SOCIALES </h4> 
+      <div class="imgfooter"> 
+      <a href="https://www.instagram.com/sorayalenceria/"><img class="imgfooter" src="../imageneslogo/instagram.png"></a>
+      <a href="https://www.facebook.com/soryalenceriia"><img class="imgfooter" src="../imageneslogo/facebook.png"></a> 
+      <a class="wp" href="https://api.whatsapp.com/send?phone=541530510714" target="_blank"><img class="imgfooter" src="../imageneslogo/whatsapp (1).png"></a>
+    </div>
 </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>

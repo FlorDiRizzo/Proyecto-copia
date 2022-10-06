@@ -1,0 +1,5 @@
+.imgfooter{
+    @include sizes (20px ,20px);
+    margin-left: 20px;
+    margin-bottom: 10px;
+    @include flex-row-center}

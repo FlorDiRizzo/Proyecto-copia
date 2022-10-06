@@ -1,0 +1,63 @@
+.imagenestalles { 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 20%;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: flex;
+ flex-direction: column;
+    justify-content: center;
+    
+}
+.talles {
+    font-size: large;
+    font-weight: 400;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+.tabla-medidas{ 
+    border-collapse: collapse;
+    margin: 50px;
+    width: 960px;
+    border-radius: 30px;
+    overflow: hidden;
+    font-size: larger;
+    min-width: 400px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    margin-left: 40px;
+    background-color: rgb(247, 247, 235);
+    border-color: black;
+    text-align: left;
+    padding: 12px 15px;
+    border-bottom: 1px solid;
+    color: rgb(70, 34, 104);
+    display:flex;
+    justify-content: center;
+ }
+
+
+ .tabla-medidas th { 
+    background-color: rgb(250, 242, 242);
+    padding: 15px 80px 20px 50px;
+    text-align: center;
+}
+
+.tabla-medidas td {
+    padding: 12px 15px;
+}
+
+
+.respuesta-pf { 
+    font-weight: 40;
+    text-align: justify;
+    padding: 00px 50px 00px 50px;
+}
