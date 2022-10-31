@@ -3,3 +3,12 @@
     margin-left: 20px;
     margin-bottom: 10px;
     @include flex-row-center}
+
+   .imginicio {
+    display: flex;
+    justify-content: center;
+    padding-right: 50px;
+    padding-left: 50px;
+    position: relative;
+    top: 0;
+   }

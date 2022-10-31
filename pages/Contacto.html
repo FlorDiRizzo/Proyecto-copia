@@ -12,12 +12,12 @@
 
 <body>
     <header>
-        <h3 container >Hecha a tu medida</h3>
+        <h2>Hecha a tu medida</h2>
     </div>
    <nav> 
        <nav class="navbar navbar-expand-lg bg-light container-fluid">
            <div class="container">
-            <h1><a class="navbar-brand"  href="../index.html">SORAYA LENCERIA</h1> </a>
+            <a class="navbar-brand"  href="../index.html">SORAYA LENCERIA </a>
            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span> 
              </button> 
@@ -54,69 +54,71 @@
     </header>
     <h1>CONTACTO</h1>
 <section class="registro">
-     <form action="">
+     <form class="eleccion" action="">
      
-     <h3 class="registrocontacto">Nombre</h3>
+     <h3 >Nombre</h3>
      <input type="text" name="NOMBRE" class="registroblock">
-     <h3 class="registrocontacto">Email</h3>
+     <h3 >Email</h3>
      <input type="email" class="registroblock">
-     <h3 class="registrocontacto">Pedido o consulta</h3>
-     <textarea name="" id="" cols="30" rows="10"></textarea>
      </form>
 
+    <div class="eleccion">
+     <h3>Pedido o consulta</h3>
+     <textarea  name="" id="" cols="30" rows="10"></textarea>
+    </div>
     <div>
-       <h3 class="registrocontacto">PRODUCTO ELEGIDO</h3> 
-       <p class="opcionesconjuntos">conjunto florencia <input type="checkbox" name="" id=""> </p>
-       <p class="opcionesconjuntos">conjunto romina <input type="checkbox" name="" id=""> </p>
-       <p class="opcionesconjuntos" >conjunto celeste <input type="checkbox" name="" id=""> </p>
-       <p class="opcionesconjuntos">conjunto agustina <input type="checkbox" name="" id=""> </p>
-       <p class="opcionesconjuntos">conjunto sabrina <input type="checkbox" name="" id=""> </p>
-       <p class="opcionesconjuntos" >conjunto valentina <input type="checkbox" name="" id=""> </p>
+       <h3 >PRODUCTO ELEGIDO</h3> 
+       <p class="opcion">CONJUNTO ANDREA<input type="checkbox" name="" id=""> </p>
+       <p class="opcion">CONJUNTO ROMINA<input type="checkbox" name="" id=""> </p>
+       <p class="opcion">CONJUNTO ROXANA<input type="checkbox" name="" id=""> </p>
+       <p class="opcion">CONJUNTO TAMARA<input type="checkbox" name="" id=""> </p>
+       <p class="opcion">CONJUNTO CAMILA<input type="checkbox" name="" id=""> </p>
+      
     </div>
 
     <div>
 
-        <h3 class="registrocontacto">OPCION DE PAGO</h3>
+        <h3>OPCION DE PAGO</h3>
 
-        <div>
+        <div class="eleccion">
             <input type="radio" id="pago-en-efectivo" name="opcion-de-pago" value="pago-en-efectivo"checked>
-            <label for="pago-en-efectivo" class="opcionpago">PAGO EN EFECTIVO EN LA TIENDA</label>
+            <label for="pago-en-efectivo" class="opcion">PAGO EN EFECTIVO </label>
         </div>
         
-        <div>
+        <div class="eleccion" >
             <input type="radio" id="trajeta-de-credito" name="opcion-de-pago" value="trajeta-de-credito ">
-            <label for="tarjeta-de-credito" class="opcionpago">TARJETA DE CREDITO </label>
+            <label for="tarjeta-de-credito" class="opcion">TARJETA DE CREDITO </label>
         </div>
         
-        <div>
+        <div class="eleccion">
             <input type="radio" id="trajeta-de-debito" name="opcion-de-pago" value="trajeta-de-debito ">
-            <label for="tarjeta-de-debito" class="opcionpago">TARJETA DE DEBITO </label>
+            <label for="tarjeta-de-debito" class="opcion">TARJETA DE DEBITO </label>
             </div>
 
-        <div>
+        <div class="eleccion">
             <input type="radio" id="mercado-pago" name="opcion-de-pago" value="mercado-pago ">
-            <label for="mercado-pago" class="opcionpago" >MERCADO PAGO</label>
+            <label for="mercado-pago" class="opcion" >MERCADO PAGO</label>
         </div> 
 
     </div>
 
     <div> 
-        <h3 class="registrocontacto">OPCION DE ENTREGA</h3>
+        <h3>OPCION DE ENTREGA</h3>
 
-        <div>
-            <input class="asd" type="radio" id="RETIRO EN LA SUCURSAL" name="opcion-de-entrega" value="RETIRO EN LA SUCURSAL" checked>
-            <label for="RETIROENLASUCURSAL">RETIRO EN LA SUCURSAL</label>
+        <div class="eleccion">
+            <input  type="radio" id="RETIRO EN LA SUCURSAL" name="opcion-de-entrega" value="RETIRO EN LA SUCURSAL" checked>
+            <label for="RETIROENLASUCURSAL" class="opcion">RETIRO EN LA SUCURSAL</label>
         </div>
 
-        <div>
+        <div class="eleccion">
             <input  type="radio" id="RETIRO EN LA SUCURSAL" name="opcion-de-entrega" value="ENVIO A DOMICILIO ">
-            <label for="ENVIOADOMICILIO">ENVIO A DOMICILIO </label>
+            <label for="ENVIOADOMICILIO" class="opcion">ENVIO A DOMICILIO </label>
         </div>
 
     </div>
 <div class="botones">
-        <input class="enviar" type="submit" value="Enviar formulario">
-        <input class="limpiar" type="reset" value="Limpiar formulario">
+        <input class="bottom" type="submit" value="Enviar formulario">
+        <input class="bottom" type="reset" value="Limpiar formulario">
       </div>
     </section>
 

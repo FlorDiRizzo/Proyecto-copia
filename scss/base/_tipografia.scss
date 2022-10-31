@@ -1,36 +1,42 @@
 
-p { padding-left: 50px}
+      p { padding-left: 50px}
 
-h1{
+      h1{   
    font-size: large;
    background-color: rgb(70, 34, 104);
    @include flex-row-center;
    color:white;
-   }
-  
-     h2{
-      font-style: normal;
-      font-weight: 400;
-      color:rgb(70, 34, 104);
-      font-size: small;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      padding: 5px;
-      font-size: large;
+   font-weight: bold;
+   display: flex;
+   justify-content: center;
+   width: 100%;
+      }
    
+     h2{
+   
+      font-size: large;
+      background-color: rgb(70, 34, 104);
+      @include flex-row-center;
+      color:white;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      width: 100%;
    }
    h3{ 
       font-size: large;
       justify-content: center;
       align-content: center;
-      font-weight: 600;
+      font-weight: 100;
       padding-left: 50px;
-   }
+      color: rgb(70, 34, 104);
+      width: 100%;
+   } 
    h4{
       background-color: rgb(70, 34, 104);
       color: white;
+      font-size: small;
+      font-weight: 100;
    }
    
    .preguntasf {
@@ -39,4 +45,11 @@ h1{
       padding-left: 50px;
   }
 
-   
+  p {
+   box-sizing: inherit;
+   line-height: 22px;
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+ }
